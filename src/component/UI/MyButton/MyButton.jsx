@@ -2,12 +2,10 @@ import React from 'react';
 
 import s from './MyButton.module.css';
 
-const MyButton = ({ children, ...props }) => {
-    return (
+const MyButton = ({ children, ...props }) => (
         <button {...props} className={s.btn}>
-            {children}
+            { children }
         </button>
     );
-};
 
 export default MyButton;

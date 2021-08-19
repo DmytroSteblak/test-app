@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 import MyInput from '../UI/MyInput/MyInput';
 import MyButton from '../UI/MyButton/MyButton';
 
-const PostForm = ({create}) => {
+const PostForm = ({ create }) => {
     const [post, setPost] = useState({ title: '', body: '' });
     const addNewPost = (e) => {
         e.preventDefault();
@@ -13,7 +13,8 @@ const PostForm = ({create}) => {
         }
         create(newPost)
         setPost({title: '', body: ''});
-    }
+    };
+
     return (
         <form>
             <MyInput
