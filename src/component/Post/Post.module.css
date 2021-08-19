@@ -1,4 +1,4 @@
-.post{
+.post {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,7 +6,9 @@
     border: teal 2px solid;
     margin-top: 15px;
 }
-
-.post button{
+.post button {
     margin-left: 5px;
+}
+.post_btn {
+    display: flex;
 }

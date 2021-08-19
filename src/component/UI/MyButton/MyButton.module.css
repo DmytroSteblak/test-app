@@ -1,4 +1,4 @@
-.btn{
+.btn {
     padding: 5px 15px;
     color: teal;
     cursor: pointer;
@@ -6,8 +6,7 @@
     background: transparent;
     border: 1px solid teal;
 }
-
-.btn:hover{
+.btn:hover {
     background: skyblue;
     color: white;
     border: 1px solid white;
